@@ -1015,18 +1015,15 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
     <column id="286" parent="284" name="name">
-      <DataType>varchar(50)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
     <column id="287" parent="284" name="lastName">
-      <DataType>varchar(50)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
     <column id="288" parent="284" name="age">
       <DataType>tinyint|0s</DataType>
-      <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <key id="289" parent="284" name="PRIMARY">
